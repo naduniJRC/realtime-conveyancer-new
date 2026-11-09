@@ -1,0 +1,21 @@
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (in case you add tooling later)
+node_modules/
+npm-debug.log*
+
+# Vercel local cache
+.vercel/
+
+# Env files — never commit secrets
+.env
+.env.*

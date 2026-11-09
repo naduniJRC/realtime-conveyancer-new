@@ -1,0 +1,41 @@
+JRC SOFTWARE — PRESENTATION EDITION
+
+OPEN THE WEBSITE
+1. Extract this ZIP completely. Do not open index.html from inside the ZIP.
+2. Open the extracted JRC_New_Website folder in VS Code.
+3. Right-click index.html and choose Open with Live Server if that extension
+   is installed. You can also open index.html directly in your browser.
+4. Refresh the browser. If it shows the previous design, use Ctrl+Shift+R.
+
+No npm install, build command, framework or internet connection is required.
+GSAP and ScrollTrigger are included locally.
+
+WHAT CHANGED
+- Wide navigation contracts into a floating capsule; working full-screen menu.
+- New editorial About section with scroll-driven orbital artwork.
+- Full-screen capabilities study: drawn line chart, expanding segmented ring,
+  and dimensional bar graphics. Scroll or use the three chapter buttons.
+- Architecture and experience graphic studies.
+- Large interactive services list.
+- Discover/Create/Evolve process and a designed team-film placeholder.
+- Oversized contact section and footer.
+
+THE EXISTING HERO
+Your hero content, video file and expanding-video effect are retained.
+The starting panel geometry now recalculates on desktop/mobile resize.
+The header has been updated to the requested capsule design.
+
+PRESENTATION NOTES
+The charts are original illustrative graphics, not JRC business statistics.
+The supplied IAAC reference video is still the temporary hero video.
+The team-film area is intentionally labelled IN PRODUCTION.
+No product screenshots, testimonials or business results were invented.
+This is an editable presentation edition, not a deployed live website.
+
+EDIT FILES
+index.html          All visible copy, sections, SVG charts, links
+css/styles.css      Colours, layout, responsive behaviour
+js/main.js          Hero animation, navigation, graphic scroll sequences
+assets/videos/      Existing hero video
+
+See MEDIA_GUIDE.txt for replacing video/visuals.

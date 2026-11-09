@@ -1,0 +1,18 @@
+CHECKS COMPLETED
+- JavaScript syntax check.
+- Local asset and section-anchor checks; unique section IDs.
+- Desktop Chromium browser inspection and screenshots.
+- All three capability chapters activate correctly on scroll.
+- Chapter-button navigation and pinned-stage release checked.
+- Navigation menu opens, closes and responds to Escape.
+- Responsive widths checked: 1920, 1440, 1024, 768 and 390px.
+- No horizontal page overflow at the checked widths.
+- Hero panel geometry recalculates correctly after resizing to phone width.
+- Reduced-motion mode removes pinning and shows all chart states.
+- Content remains visible with JavaScript disabled.
+- Browser smoke checks produced no page script errors.
+
+LIMITS
+Tested in Chromium; Safari and Firefox were not available for verification.
+No live deployment or real-device performance benchmark was performed.
+The hero clip and team film still need final JRC media.

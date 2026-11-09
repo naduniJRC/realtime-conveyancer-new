@@ -1,0 +1,34 @@
+MEDIA REPLACEMENTS
+
+HERO
+Replace assets/videos/jrc-hero.mp4 with the final JRC video using that same
+filename. The layout and expansion effect will continue to work.
+The supplied file remains the original IAAC reference clip for now.
+
+TEAM FILM
+Search index.html for class="film-slot".
+Replace its .film-art element with a video or photo when the media is ready.
+Keep the outer .film-slot and caption area, updating the production label.
+A video should use muted loop playsinline and preload="none", with a poster.
+Avoid autoplaying multiple heavy videos at the same time.
+If .film-cross is removed, remove its corresponding tween in js/main.js.
+
+ARTWORK
+The charts, segmented ring, dimensional bars and architecture graphics are
+SVG/CSS, editable directly in index.html and css/styles.css.
+There are no external image, video or font dependencies beyond your hero.
+
+BRAND
+The original site font family is retained. Serif italic accents are used in
+selected new headlines. Core colours are black, warm white and JRC orange.
+The existing text wordmark is retained and centred in the new navigation.
+
+CONTACT
+The contact links use contact@jrcsoftware.com. Update both occurrences in
+index.html if a different presentation contact is required.
+
+ACCESSIBILITY / MOTION
+Desktop: one pinned capability stage in addition to the existing hero.
+Phone: capability visuals stack vertically without pinning.
+Reduced motion: all graphic states are static and hero video starts paused.
+The full-screen menu supports Escape, focus containment and return focus.
