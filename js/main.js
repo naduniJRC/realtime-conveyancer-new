@@ -26,13 +26,13 @@
   }, { threshold: 0.05 });
   visibility.observe(hero);
   const scenes = [
-    { start: 0,      end: 6,      main: "Built by conveyancers.", accent: "For conveyancers." },
-    { start: 6,      end: 12,     main: "Keep your team",         accent: "connected." },
-    { start: 12,     end: 18,     main: "Keep your clients",      accent: "in the loop." },
-    { start: 18,     end: 24,     main: "Less admin.",            accent: "More progress." },
-    { start: 24,     end: 30,     main: "More time",              accent: "for what matters." },
-    { start: 30,     end: 32.993, main: "Move forward",           accent: "together." },
-    { start: 32.993, end: 39,     main: "Your expertise.",        accent: "Powered by Realtime." },
+    { start: 0,     end: 5.98,  main: "Built by conveyancers.", accent: "For conveyancers." },
+    { start: 5.98,  end: 11.94, main: "Keep your team",         accent: "connected." },
+    { start: 11.94, end: 17.9,  main: "Keep your clients",      accent: "in the loop." },
+    { start: 17.9,  end: 23.88, main: "Less admin.",            accent: "More progress." },
+    { start: 23.88, end: 29.84, main: "More time",              accent: "for what matters." },
+    { start: 29.84, end: 32.9,  main: "Move forward",           accent: "together." },
+    { start: 32.9,  end: 38.88, main: "Your expertise.",        accent: "Powered by Realtime." },
   ];
   const captionTitle = panel.querySelector('[data-scene-title]');
   let currentScene = -1;
